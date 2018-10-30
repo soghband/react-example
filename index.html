@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script src="js/react.development.js"></script>
+    <script src="js/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="js/example.jsx" type="text/jsx"></script>
+    <script src="js/example-child.jsx" type="text/jsx"></script>
+</head>
+<body>
+    <div id="example"></div>
+</body>
+<script type="text/babel">
+	const domContainer = document.querySelector('#example');
+    var Example;
+	ReactDOM.render(<Example />, domContainer);
+</script>
+</html>
